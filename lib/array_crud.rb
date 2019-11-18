@@ -1,25 +1,27 @@
 def create_an_empty_array
-  
+  my_array = []
 end
 
 def create_an_array
-  
+  my_array2 = [2,3,4,5]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+ array = my_array2
+ element = 8
+ array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  add_element_to_start_of_array.unshift("lab")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  remove_element_from_end_of_array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  remove_element_from_start_of_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
